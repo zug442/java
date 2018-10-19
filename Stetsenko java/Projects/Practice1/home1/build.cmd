@@ -1,1 +1,0 @@
-jar cfm build/print.jar res/manifest.mf -C out/ .
