@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Created-By: <Dmitriy Stetsenko>
+Main-Class: base.Main
