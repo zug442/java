@@ -1,0 +1,21 @@
+Starting audit...
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:17:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:24:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:31:1: File contains tab characters (this is the first instance).
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:32:9: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:36:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:40:9: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:44:9: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:48:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:52:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:60:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:61:33: Expression can be simplified.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:67:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:68:33: Expression can be simplified.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:74:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:82:6: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:90:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:97:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:98:29: Expression can be simplified.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:103: Line is longer than 80 characters (found 98).
+Audit done.
