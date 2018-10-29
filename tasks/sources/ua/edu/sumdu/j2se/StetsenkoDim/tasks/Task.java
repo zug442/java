@@ -4,7 +4,6 @@ import java.util.Date;
 
 /**
  * Created by stets on 02.10.2018.
- * for commit
  */
 public class Task {
     private static final int HOUR = 3600000; //1000*60*60 HOUR in milliseconds

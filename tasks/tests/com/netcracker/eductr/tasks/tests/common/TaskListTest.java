@@ -93,6 +93,10 @@ public abstract class TaskListTest extends AbstractListTest
             task("Repeat left intersect OUT", 0, 55, 22, true),
             task("Repeat right intersect IN", 55, 100, 20, true)
         };
+        
+        
+        
+        
         TaskList tasks = TaskList.create();
         for (Task t : ts) tasks.add(t);
         Set<String> incoming = new HashSet<String>();

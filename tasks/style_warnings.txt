@@ -1,4 +1,21 @@
 Starting audit...
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:4: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:6:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:6:29: '{' is not preceded with whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:15:16: 'for' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:19:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:22:12: 'for' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:23:15: 'if' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:23:29: '{' is not preceded with whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:24: Line is longer than 80 characters (found 123).
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:24:24: 'for' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:44:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:49:5: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:52:10: Missing a Javadoc comment.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:55:12: 'for' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:56:15: 'if' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:64:12: 'for' is not followed by whitespace.
+E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\ArrayTaskList.java:66:12: 'for' is not followed by whitespace.
 E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:17:5: Missing a Javadoc comment.
 E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:24:5: Missing a Javadoc comment.
 E:\java.course.dev\projects\tasks\sources\ua\edu\sumdu\j2se\StetsenkoDim\tasks\Task.java:31:1: File contains tab characters (this is the first instance).
