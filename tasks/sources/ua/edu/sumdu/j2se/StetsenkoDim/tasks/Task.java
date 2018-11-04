@@ -100,7 +100,7 @@ public class Task {
                 return this.getTime();
             } else {
                 if (this.interval > 0) {
-                    for (int i = this.getStartTime(); i < this.getEndTime(); i += this.interval) {
+                    for (int i = this.getStartTime(); i <= this.getEndTime(); i += this.interval) {
                         if (current < i) {
                             return i;
                         }

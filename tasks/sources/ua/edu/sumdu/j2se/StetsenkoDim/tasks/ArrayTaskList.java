@@ -2,69 +2,53 @@ package ua.edu.sumdu.j2se.StetsenkoDim.tasks;
 
 
 public class ArrayTaskList {
-    private Task [] task = new Task[0];
+    private int index;
+    private final int CUT = 4;
+    private Task [] task = new Task[10];
     public void add(Task tk){
-            Task[] t = task;
-            int len;
-            try {
-                len = t.length;
-            } catch (NullPointerException ex) {
-                len = 0;
-            }
-            task = new Task[len + 1];
-            for(int i = 0; i < t.length; i++)
-                task[i] = t[i];
-            task[task.length - 1] = tk;
+        if(index == task.length-1)
+            ChangeSize((int)(task.length * 1.2 + 1));
+        task[index++] = tk;
+    }
+    private void ChangeSize(int newLength) {
+        Task[] newTask = new Task[newLength];
+        System.arraycopy(task, 0, newTask, 0, index);
+        task = newTask;
     }
     public ArrayTaskList incoming(int from, int to) {
-        int end = 0;
         ArrayTaskList nTask = new ArrayTaskList();
-        for(Task t : task) {
-            if(t.isActive()){
-                    for(int i = t.getStartTime() + t.getRepeatInterval(); i < t.getEndTime(); i += t.getRepeatInterval()) {
-                            if (t.getStartTime() > from && t.getEndTime() < to)
-                                break;
-                            if (t.getEndTime() == to) {
-                                nTask.add(t);
-                                break;
-                            }
-                            if (i >= from && i <= to) {
-                                nTask.add(t);
-                                break;
-                            } else
-                                continue;
-                    }
-                if (t.getTime() > from && t.getTime() <= to) {
-                    nTask.add(t);
-                }
-            }
+        for(int i = 0; i < index; i++) {
+            if(task[i].nextTimeAfter(from) > 0 && task[i].nextTimeAfter(from) <= to)
+                nTask.add(task[i]);
         }
         return nTask;
     }
-    public int size() {
 
-            return task.length;
+    public int size() {
+        return index;
 
     }
     public Task getTask(int index) {
                 return this.task[index];
     }
-         public boolean remove(Task tk) {
-        int index = 0;
-        Task[]t = task;
-        for(int i = 0; i < task.length; i++) {
-            if(task[i] == tk) {
-                index = i;
+    public boolean remove(Task tcome) {
+        int ind = 0;
+        for(int i = 0; i <= index; i++) {
+            if(task[i] == tcome) {
+                ind = i;
                 break;
             }
-            if (i == task.length - 1)
+            if(i == index)
                 return false;
         }
-        task = new Task[t.length - 1];
-        for(int i = 0; i < index; i++)
-            task[i] = t[i];
-        for(int i = index + 1; i < task.length + 1; i++)
-            task[i - 1] = t[i];
+        for (int i = ind; i < index; i++) {
+            task[i] = task[i+1];
+        }
+        task[index] = null;
+        index--;
+        if (index < task.length / CUT) {
+            ChangeSize((int)(task.length * 1.2 + 1));
+        }
         return true;
     }
 }
